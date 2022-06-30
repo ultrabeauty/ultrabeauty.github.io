@@ -399,7 +399,15 @@
     z-index: 3;
 }
 
-
+#cleansersHeader {
+    font-size: 260%;
+    color: black;
+    position: absolute;
+    top: 47%;
+    left: 21%;
+    font-family: 'Quantify';
+    z-index: 3;
+}   
 
 /* makeup page */
 #makeupBackgroundBox {
@@ -620,7 +628,52 @@ ul a {
 
 a:hover, a:active, a:focus, a:visited {
     text-decoration: none;
-    color: #EDE677;
+    color: #EDE677; /*the yellow*/
+}
+
+
+
+
+
+
+
+li a:hover, .dropdown:hover .dropdown {
+    z-index: 9;
+}
+
+li.dropdown {
+    display: inline-block;
+    z-index: 9;
+}
+
+/* actual grey dropdown menu*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 74%;
+    width: 300px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 5px 8px 0px rgba(0,0,0,0.2);
+    z-index: 9;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 20px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    z-index: 9;
+}
+
+
+.dropdown-content a:hover {
+    text-decoration: underline;
+    
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 

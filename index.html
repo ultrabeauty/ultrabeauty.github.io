@@ -16,13 +16,57 @@
   <div class="container">
     <nav>
         <ul class="mainTabs">
-          <li><a data-content="homepage" class="selectedMainTabMainTab" href="homepage" style = "position: absolute; left:18.5%; top:-73%; color: white; font-size: 50px; font-family: 'tommy'; z-index: 1">ultra beauty</a></li>     
+          <li><a data-content="homepage" class="selectedMainTab" href="homepage" style = "position: absolute; left:18.5%; top:-73%; color: white; font-size: 50px; font-family: 'tommy'; z-index: 1">ultra beauty</a></li>     
           <li><a data-content="blank" href="blank"> </a><li>
-          <li><a data-content="new" href="new">NEW</a></li>
-          <li><a data-content="skincare" href="skincare">SKINCARE</a></li>
-          <li><a data-content="makeup" href="makeup">MAKEUP</a></li>
-          <li><a data-content="body&hair" href="body&hair">BODY & HAIR CARE</a></li>
-          <li><a data-content="all" href="all">SHOP ALL</a></li>
+          <li class="dropdown">
+            <a href="#" class="new">NEW</a>
+            <div class="dropdown-content">
+              <a href="allNew" data-content="allNew" class="selectedSubTab">All New</a>
+              <a href="newSkincare" data-content="newSkincare">New Skincare</a>
+              <a href="newMakeup" data-content="newMakeup">New Makeup</a>
+              <a href="cleansersss" data-content="cleansersss">New Body & Hair Care</a>
+            </div> 
+          </li>
+          <li class="dropdown">
+            <a href="#" class="skincare">SKINCARE</a>
+            <div class="dropdown-content">
+              <a href="cleansers" data-content="cleansers" class="selectedSubTab">Cleansers</a>
+              <a href="exfoliators" data-content="exfoliators">Exfoliators</a>
+              <a href="toners" data-content="toners">Toners</a>
+              <a href="serums" data-content="serums">Serums</a>
+              <a href="moisturizers" data-content="moisturizers">Moisturizers</a>
+              <a href="sunscreen" data-content="sunscreen">Sunscreen</a>
+              <a href="eyeLipCare" data-content="eyeLipCare">Eye & Lip Care</a>
+            </div> 
+          </li>          
+          <li class="dropdown">
+            <a href="#" class="makeup">MAKEUP</a>
+            <div class="dropdown-content">
+              <a href="eyes" data-content="eyes" class="selectedSubTab">Eyes</a>
+              <a href="lips" data-content="lips">Lips</a>
+              <a href="face" data-content="face">Face</a>
+              <a href="cheek" data-content="cheek">Cheek</a>
+            </div> 
+          </li>
+          <li class="dropdown">
+            <a href="#" class="body&hair">BODY & HAIR CARE</a>
+            <div class="dropdown-content">
+              <a href="bodyWashShowerGel" data-content="bodyWashShowerGel" class="selectedSubTab">Body Wash & Shower Gel</a>
+              <a href="scrubsExfoliants" data-content="scrubsExfoliants">Scrubs & Exfoliants</a>
+              <a href="bodyLotionOil" data-content="bodyLotionOil">Body Lotions & Oils</a>
+              <a href="shampooConditioner" data-content="shampooConditioner">Shampoo & Conditoner</a>
+              <a href="scalpTreatments" data-content="scalpTreatments">Scalp Treatments</a>
+              <a href="hairSerums" data-content="hairSerums">Hair Serums</a>
+            </div> 
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown">SHOP ALL</a>
+            <div class="dropdown-content">
+              <a href="bestSellers" data-content="bestSellers" class="selectedSubTab">Best Sellers</a>
+              <a href="sale" data-content="sale">Sale</a>
+              <a href="cleansersss" data-content="cleansersss">Cleansers</a>
+            </div> 
+          </li>
         </ul>
     </nav>
   </div>
@@ -69,7 +113,7 @@
            <button class="button" id = "bestSellingBut3" onclick="addToCart()">ADD TO CART $18.95 CAD</button>
            
            <div id="bestsellingBox4"></div>   
-           <img src="bestSellingPic4.png" id= "bestSellingPic4" alt="bestSellingPic4" style = "position:absolute; left: 61.8%; top:782%; width: 18.5%; height: 210%; z-index: 5"/>
+           <img src="bestSellingPic4.png" id= "bestSellingPic4" alt="bestSellingPic4" style = "position:absolute; left: 61.8%; top:787%; width: 18.5%; height: 205%; z-index: 5"/>
            <img src="starRating5.png" id= "starRating5_pic3" alt="starRating5_pic3" style = "position:absolute; left: 67%; top:995%; width: 8%; height: 21%; z-index: 6"/>
            <h2 id="bestsellingHeader4" style="font-family: 'Quantify'; font-size: 15px; position: absolute; left: 59.4%; top: 1010%; color: black; z-index: 7; width: 23%; text-align: center">Lip Sleeping Mask with Hyaluronic Acid and Vitamin C</h2>
            <button class="button" id = "bestSellingBut4" onclick="addToCart()">ADD TO CART $18.95 CAD</button>
@@ -82,26 +126,33 @@
            
            <div id="homepageFooterBox"></div>
   
-        </li>
-        <li data-content="new">       
-        
+        </li>   
+        <li data-content="new"> 
+   
             <div id="newTabBox"></div> 
             <div id="newBackgroundBox"></div>   
-           
+   
             <div id="newContentBox"></div>
-                                    
-            <div id="newFooterBox"></div>
+            <div id="newFooterBox"></div>   
+                        
             
-            
-        </li>
+        </li>      
         <li data-content="skincare"> 
-   
-            <div id="skincareTabBox"></div> 
-            <div id="skincareBackgroundBox"></div>   
-   
-            <div id="skincareContentBox"></div>
-            <div id="skincareFooterBox"></div>   
-        </li>
+            <li data-content="cleansers" class="selectedSubTab"> 
+                <h2 id="cleansersHeader">cleansers</h2>  
+                <div id="skincareTabBox"></div> 
+                <div id="skincareBackgroundBox"></div>   
+                <div id="skincareContentBox"></div>
+                <div id="skincareFooterBox"></div>   
+            </li>     
+            <li data-content="exfoliators"> 
+                <div id="skincareTabBox"></div> 
+                <div id="skincareBackgroundBox"></div>   
+                <div id="skincareContentBox"></div>
+                <div id="skincareFooterBox"></div>   
+            </li>              
+            
+        </li>        
         <li data-content="makeup">
 
             <div id="makeupTabBox"></div> 
