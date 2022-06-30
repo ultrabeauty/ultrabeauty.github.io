@@ -664,6 +664,8 @@ li.dropdown {
     display: block;
     text-align: left;
     z-index: 9;
+    font-family: 'Quantify';
+    font-size: 93%;
 }
 
 
