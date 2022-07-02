@@ -284,6 +284,28 @@
     z-index: 2;
 }
 
+#socialHeader {
+    font-size: 235%;
+    color: black;
+    position: absolute;
+    top: 1480%;
+    left: 19%;
+    font-family: 'Quantify';
+    z-index: 5;
+}   
+
+#socialText p{
+    position: absolute;
+    font-size: 117%;
+    z-index: 5;  
+    color: black;
+    top: 1543%;
+    left: 11.5%;
+    font-family: 'Quantify';
+    letter-spacing: 1px;
+    width: 64%;
+}
+
 #homepageContentBox3 {
     background-color: #FFE7CD;
     width: 135.4%;
@@ -313,6 +335,17 @@
     left: -37.4%;
     z-index: 3;
 }
+
+#homepageFooterBox2 {
+    background-color: #F5EA77;
+    width: 40%;
+    height: 260%;
+    position: absolute;
+    top: 1934%;
+    left: -37.4%;
+    z-index: 4;
+}
+
 
 
 /* new page */
@@ -362,7 +395,7 @@
 #skincareBackgroundBox {
     background-image: linear-gradient(#FBF5B5, #F2CDD5, #B6A3EE);
     width: 165.25%;
-    height: 987%;
+    height: 1565%;
     position: absolute;
     top: -127%;
     left: -53%;
@@ -382,7 +415,7 @@
 #skincareContentBox {
     background-color: #F3F8FE;
     width: 135.4%;
-    height: 600%;
+    height: 1180%;
     position: absolute;
     top: 44%;
     left: -37.4%;
@@ -394,20 +427,71 @@
     width: 135.4%;
     height: 260%;
     position: absolute;
-    top: 600%;
+    top: 1178%;
     left: -37.4%;
     z-index: 3;
 }
+
+#skincareFooterBox2 {
+    background-color: #F5EA77;
+    width: 40%;
+    height: 260%;
+    position: absolute;
+    top: 1178%;
+    left: -37.4%;
+    z-index: 4;
+}
+
 
 #cleansersHeader {
     font-size: 260%;
     color: black;
     position: absolute;
-    top: 47%;
-    left: 21%;
+    top: 56%;
+    left: 22.5%;
     font-family: 'Quantify';
     z-index: 3;
 }   
+
+#eyesHeader {
+    font-size: 260%;
+    color: black;
+    position: absolute;
+    top: 56%;
+    left: 22.5%;
+    font-family: 'Quantify';
+    z-index: 3;
+}  
+
+#allNewHeader {
+    font-size: 260%;
+    color: black;
+    position: absolute;
+    top: 56%;
+    left: 19%;
+    font-family: 'Quantify';
+    z-index: 3;
+}   
+
+#bodyWashShowerGelHeader {
+    font-size: 260%;
+    color: black;
+    position: absolute;
+    top: 56%;
+    left: 13%;
+    font-family: 'Quantify';
+    z-index: 3;
+}   
+
+#bestSellersHeader {
+    font-size: 260%;
+    color: black;
+    position: absolute;
+    top: 56%;
+    left: 22.5%;
+    font-family: 'Quantify';
+    z-index: 3;
+}  
 
 /* makeup page */
 #makeupBackgroundBox {
@@ -634,9 +718,6 @@ a:hover, a:active, a:focus, a:visited {
 
 
 
-
-
-
 li a:hover, .dropdown:hover .dropdown {
     z-index: 9;
 }
@@ -668,7 +749,6 @@ li.dropdown {
     font-size: 93%;
 }
 
-
 .dropdown-content a:hover {
     text-decoration: underline;
     
@@ -678,5 +758,278 @@ li.dropdown {
     display: block;
 }
 
+
+#contentBox1 {
+    background-color: white;
+    width: 25%;
+    height: 465%;
+    position: absolute;
+    top: 220%;
+    left: -33.5%;
+    z-index: 4;
+}
+
+#contentBut1:hover {
+    background-color: #C77BCB;
+    box-shadow: 4px 4px #FA627E;
+}
+
+#contentBut1 {
+    background-color: #8CD0E3;   
+    position: absolute;  
+    top: 620%;
+    left: -30.2%;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 4px 2px;
+    border: none;
+    font-family: 'tommy';
+    color: white;
+    z-index: 7;
+    letter-spacing: 1px;
+    box-shadow: 3px 3px #EDE677;
+}
+
+#contentBox2 {
+    background-color: white;
+    width: 25%;
+    height: 465%;
+    position: absolute;
+    top: 220%;
+    left: -8%;
+    z-index: 4;
+}
+
+#contentBut2:hover {
+    background-color: #C77BCB;
+    box-shadow: 4px 4px #FA627E;
+}
+
+#contentBut2 {
+    background-color: #8CD0E3;   
+    position: absolute;  
+    top: 620%;
+    left: -4.6%;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 4px 2px;
+    border: none;
+    font-family: 'tommy';
+    color: white;
+    z-index: 7;
+    letter-spacing: 1px;
+    box-shadow: 3px 3px #EDE677;
+}
+
+#contentBox3 {
+    background-color: white;
+    width: 25%;
+    height: 465%;
+    position: absolute;
+    top: 220%;
+    left: 17.5%;
+    z-index: 4;
+}
+
+#contentBut3:hover {
+    background-color: #C77BCB;
+    box-shadow: 4px 4px #FA627E;
+}
+
+#contentBut3 {
+    background-color: #8CD0E3;   
+    position: absolute;  
+    top: 620%;
+    left: 21%;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 4px 2px;
+    border: none;
+    font-family: 'tommy';
+    color: white;
+    z-index: 7;
+    letter-spacing: 1px;
+    box-shadow: 3px 3px #EDE677;
+}
+
+#contentBox4 {
+    background-color: white;
+    width: 25%;
+    height: 465%;
+    position: absolute;
+    top: 220%;
+    left: 43%;
+    z-index: 4;
+}
+
+#contentBut4:hover {
+    background-color: #C77BCB;
+    box-shadow: 4px 4px #FA627E;
+}
+
+#contentBut4 {
+    background-color: #8CD0E3;   
+    position: absolute;  
+    top: 620%;
+    left: 46.6%;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 4px 2px;
+    border: none;
+    font-family: 'tommy';
+    color: white;
+    z-index: 7;
+    letter-spacing: 1px;
+    box-shadow: 3px 3px #EDE677;
+}
+
+
+#contentBox5 {
+    background-color: white;
+    width: 25%;
+    height: 465%;
+    position: absolute;
+    top: 220%;
+    left: 68.5%;
+    z-index: 4;
+}
+
+#contentBut5:hover {
+    background-color: #C77BCB;
+    box-shadow: 4px 4px #FA627E;
+}
+
+#contentBut5 {
+    background-color: #8CD0E3;   
+    position: absolute;  
+    top: 620%;
+    left: 71.9%;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 4px 2px;
+    border: none;
+    font-family: 'tommy';
+    color: white;
+    z-index: 7;
+    letter-spacing: 1px;
+    box-shadow: 3px 3px #EDE677;
+}
+
+#contentBox6 {
+    background-color: white;
+    width: 25%;
+    height: 465%;
+    position: absolute;
+    top: 693%;
+    left: -33.5%;
+    z-index: 4;
+}
+
+#contentBut6:hover {
+    background-color: #C77BCB;
+    box-shadow: 4px 4px #FA627E;
+}
+
+#contentBut6 {
+    background-color: #8CD0E3;   
+    position: absolute;  
+    top: 1090%;
+    left: -30.2%;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 4px 2px;
+    border: none;
+    font-family: 'tommy';
+    color: white;
+    z-index: 7;
+    letter-spacing: 1px;
+    box-shadow: 3px 3px #EDE677;
+}
+
+#contentBox7 {
+    background-color: white;
+    width: 25%;
+    height: 465%;
+    position: absolute;
+    top: 693%;
+    left: -8%;
+    z-index: 4;
+}
+
+#contentBut7:hover {
+    background-color: #C77BCB;
+    box-shadow: 4px 4px #FA627E;
+}
+
+#contentBut7 {
+    background-color: #8CD0E3;   
+    position: absolute;  
+    top: 1090%;
+    left: -4.6%;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 4px 2px;
+    border: none;
+    font-family: 'tommy';
+    color: white;
+    z-index: 7;
+    letter-spacing: 1px;
+    box-shadow: 3px 3px #EDE677;
+}
+
+#contentBox8 {
+    background-color: white;
+    width: 25%;
+    height: 465%;
+    position: absolute;
+    top: 693%;
+    left: 17.5%;
+    z-index: 4;
+}
+
+#contentBut8:hover {
+    background-color: #C77BCB;
+    box-shadow: 4px 4px #FA627E;
+}
+
+#contentBut8 {
+    background-color: #8CD0E3;   
+    position: absolute;  
+    top: 1090%;
+    left: 21%;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 4px 2px;
+    border: none;
+    font-family: 'tommy';
+    color: white;
+    z-index: 7;
+    letter-spacing: 1px;
+    box-shadow: 3px 3px #EDE677;
+}
 
 </style>
